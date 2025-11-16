@@ -33,5 +33,45 @@ CLOSE AND APPLY
 
 
 
+KPI-- Card
+
+To change background -- Visualisations>Canvas 
+
+For new column - AttritionCount
+
+Transform Data
+Add Column Ribbon
+ Conditional Column
+  if attrition Yes then 1
+  else 0
+
+For Attrition Rate in %
+ New Measure
+ AttritionRate = SUM(csvName[attritionCount])/SUM(csvName[employeeCount])
+
+ For Avg Salary
+ MonthlyIncom
+
+
+Gender --Tree Map
+Category - Gender
+Values - Sum of AttritionCount
+
+Age Group 
+Transform Data
+Custom Column, add logic save
+
+Job satisfaction -- Matrix
+Job role
+Jobe satisfaction
+Attrition Count
+
+
+ 
+
+
+
+
+
 
 
